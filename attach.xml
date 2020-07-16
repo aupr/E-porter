@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>E-mail reporter setting file | do not edit manually if you are not an expert</comment>
+<entry key="1">E:\Batch_Data\text_1.txt</entry>
+<entry key="0">E:\Batch_Data\text_2.txt</entry>
+</properties>

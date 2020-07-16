@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>E-mail reporter setting file | do not edit manually if you are not an expert</comment>
+<entry key="smtpPassword">zC+SpJsdkbsjgqtLo/VLog==</entry>
+<entry key="emailSubject">this is a test mail for {{dd}}-{{MM}}-{{yyyy}} {{HH:mm}}</entry>
+<entry key="smtpEnableStartTls">true</entry>
+<entry key="timeToBack">0</entry>
+<entry key="emailBody">Dear Concern,
+this is a test mail body for date: {{dd}}-{{MM}}-{{yyyy}} Time: {{HH:mm:ss}}
+
+Thanks,
+Sincos ER</entry>
+<entry key="smtpEnableAuth">true</entry>
+<entry key="smtpFrom">soud@stsvinc.com</entry>
+<entry key="smtpHost">sg2plcpnl0128.prod.sin2.secureserver.net</entry>
+<entry key="smtpEnableSsl">true</entry>
+<entry key="smtpUsername">soud@stsvinc.com</entry>
+<entry key="timeToMatch">08:54</entry>
+<entry key="smtpPort">4654</entry>
+<entry key="emailTo">amanullah.snet@gmail.com;siemens.aman@gmail.com;sincos0952@gmail.com</entry>
+</properties>

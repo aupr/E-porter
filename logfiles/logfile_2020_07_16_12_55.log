@@ -1,0 +1,12 @@
+Jul 16, 2020 12:55:15 PM app.LogKeeper init
+INFO: Applicaiton started...
+Jul 16, 2020 12:56:22 PM app.Controller saveEmail
+INFO: Email settings saved
+Jul 16, 2020 12:56:27 PM app.Controller saveSmtpSettings
+INFO: SMTP settings saved
+Jul 16, 2020 12:56:32 PM app.Controller addAttachmentLink
+INFO: Attachment link added
+Jul 16, 2020 12:56:39 PM app.Controller removeAttachmentLink
+INFO: Attachment link removed
+Jul 16, 2020 12:56:56 PM app.Controller saveTimes
+INFO: Scheduler time settings saved
