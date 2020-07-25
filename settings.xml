@@ -13,10 +13,10 @@ Thanks,
 Sincos ER</entry>
 <entry key="smtpEnableAuth">true</entry>
 <entry key="smtpFrom">soud@stsvinc.com</entry>
-<entry key="smtpEnableSsl">true</entry>
 <entry key="smtpHost">sg2plcpnl0128.prod.sin2.secureserver.net</entry>
-<entry key="timeToMatch"/>
+<entry key="smtpEnableSsl">true</entry>
 <entry key="smtpUsername">soud@stsvinc.com</entry>
-<entry key="smtpPort">465</entry>
+<entry key="timeToMatch">20:11</entry>
+<entry key="smtpPort">4654</entry>
 <entry key="emailTo">amanullah.snet@gmail.com;siemens.aman@gmail.com</entry>
 </properties>

@@ -126,7 +126,6 @@ public class Controller {
             protected Object call() throws Exception {
                 Misc.sendTestMail = true;
                 emailTask.run();
-                Misc.sendTestMail = false;
                 return null;
             }
         };

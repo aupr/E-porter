@@ -1,5 +1,6 @@
 package app;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
 import com.sun.org.apache.xpath.internal.operations.Bool;
 import javafx.application.Platform;
 
@@ -34,16 +35,10 @@ public class EmailTask extends TimerTask {
         if (settings.get("timeToMatch").equals(compareToTimeString) || Misc.sendTestMail) {
 
             Platform.runLater(() -> {
-                if (Misc.sendTestMail) {
-                    Toast.makeToastInfo("Test Mail sending...");
-                    logger.info("Test Mail sending...");
-                } else {
-                    Toast.makeToastInfo("Mail sending...");
-                    logger.info("Mail sending...");
-                }
+                logger.info("Getting ready to send mail...");
             });
 
-
+            // setting the mailResolver object
             EmailResolver emailResolver = new EmailResolver(settings.get("smtpHost"), Integer.parseInt(settings.get("smtpPort")), settings.get("smtpFrom"));
             emailResolver.setMailSmtpSslRequired(Boolean.parseBoolean(settings.get("smtpEnableSsl")));
             emailResolver.setMailSmtpSslEnable(Boolean.parseBoolean(settings.get("smtpEnableSsl")));
@@ -87,24 +82,81 @@ public class EmailTask extends TimerTask {
                     addressList.add(new InternetAddress(email));
                 } catch (AddressException e) {
                     Platform.runLater(() -> {
-                        logger.log(Level.WARNING, "Email Address exception", e);
+                        logger.log(Level.WARNING, "Email Address exception: " + email, e);
                     });
                 }
             }
             Address[] addresses = addressList.toArray(new InternetAddress[0]);
-            try {
-                emailResolver.sendMail(addresses);
-                Platform.runLater(() -> {
-                    Toast.makeToastInfo("Mail sent successfully");
-                    logger.info("Mail sent successfully");
-                });
-            } catch (MessagingException e) {
-                Platform.runLater(() -> {
-                    Toast.makeToastError("Failed to send mail");
-                    logger.log(Level.SEVERE, "Failed to send mail", e);
-                });
-            }
 
+
+            // sending mail
+
+            if (Misc.sendTestMail) {
+                // run test mail send
+                Misc.sendTestMail = false;
+                try {
+                    Platform.runLater(() -> {
+                        Toast.makeToastInfo("Attempt to send test mail");
+                        logger.info("Attempt to send test mail");
+                    });
+                    emailResolver.sendMail(addresses);
+                    Platform.runLater(() -> {
+                        Toast.makeToastInfo("Mail sent successfully");
+                        logger.info("Mail sent successfully");
+                    });
+                } catch (MessagingException e) {
+                    Platform.runLater(() -> {
+                        Toast.makeToastError("Failed to send mail");
+                        logger.log(Level.SEVERE, "Failed to send mail", e);
+                    });
+                }
+
+             } else {
+                // mail sending by schedule with retry capability
+                // it will try for 7 times to send mail with 30 minutes interval
+                // approximate maximum execution time 3 hours
+                // variable to control retry flow
+                boolean retryToSendMail = true;
+                int attemptCount = 0;
+
+                while (retryToSendMail) {
+                    try {
+                        int finalAttemptCount = ++attemptCount;
+                        if (finalAttemptCount >= 7)
+                            retryToSendMail = false;
+                        Platform.runLater(() -> {
+                            Toast.makeToastInfo("Attempt "+ finalAttemptCount +" to send mail");
+                            logger.info("Attempt "+ finalAttemptCount +" to send mail");
+                        });
+                        emailResolver.sendMail(addresses);
+                        retryToSendMail = false;
+                        Platform.runLater(() -> {
+                            Toast.makeToastInfo("Mail sent successfully");
+                            logger.info("Mail sent successfully");
+                        });
+                    } catch (MessagingException e) {
+                        Platform.runLater(() -> {
+                            Toast.makeToastError("Failed to send mail");
+                            logger.log(Level.SEVERE, "Failed to send mail", e);
+                        });
+                    }
+
+                    // Wait to next try if failed
+                    if (retryToSendMail) {
+                        for (int i = 0; i<30; i++) {
+                            System.out.println("counting time in minute: " + i);
+                            try {
+                                // One minute delay
+                                Thread.sleep(60000);
+                            } catch (InterruptedException e) {
+                                Platform.runLater(() -> {
+                                    logger.log(Level.WARNING, "Thread sleep exception", e);
+                                });
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
