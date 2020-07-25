@@ -7,6 +7,7 @@ import javax.mail.Address;
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.logging.Level;
@@ -26,7 +27,7 @@ public class EmailTask extends TimerTask {
 
         // Loading the time to compare
         long compareToTimeMills = System.currentTimeMillis() - (Long.parseLong(settings.get("timeToBack")) * 60000);
-        String compareToTimeString = new SimpleDateFormat("HH:mm").format(new Date(compareToTimeMills));
+        String compareToTimeString = new SimpleDateFormat("HH:mm").format(new Date());
 
         System.out.println(new Date());
 
@@ -59,10 +60,20 @@ public class EmailTask extends TimerTask {
             Map<String, String> attachmentList = attachmentSettings.getAll();
             for (Map.Entry<String, String> attachment: attachmentList.entrySet()) {
                 try {
-                    emailResolver.mailAttachmentAdd(Misc.patternsToDateTime(attachment.getValue(), compareToTimeMills));
-                    System.out.println(attachment.getValue());
+                    String singleFilePath = Misc.patternsToDateTime(attachment.getValue(), compareToTimeMills);
+                    File file = new File(singleFilePath);
+                    if (file.isFile() && file.canRead()) {
+                        emailResolver.mailAttachmentAdd(singleFilePath);
+                    } else {
+                        Platform.runLater(() -> {
+                            logger.log(Level.WARNING, "File missing: " + singleFilePath);
+                        });
+                    }
+                    System.out.println(singleFilePath);
                 } catch (MessagingException e) {
-                    e.printStackTrace();
+                    Platform.runLater(() -> {
+                        logger.log(Level.SEVERE, "Attachment add Exception", e);
+                    });
                 }
             }
 
@@ -76,7 +87,7 @@ public class EmailTask extends TimerTask {
                     addressList.add(new InternetAddress(email));
                 } catch (AddressException e) {
                     Platform.runLater(() -> {
-                        logger.log(Level.WARNING, "File attachment exception", e);
+                        logger.log(Level.WARNING, "Email Address exception", e);
                     });
                 }
             }

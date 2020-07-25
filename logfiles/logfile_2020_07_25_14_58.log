@@ -1,0 +1,16 @@
+Jul 25, 2020 2:58:31 PM app.LogKeeper init
+INFO: Applicaiton started...
+Jul 25, 2020 2:58:47 PM app.Controller saveSmtpSettings
+INFO: SMTP settings saved
+Jul 25, 2020 2:59:03 PM app.Controller saveEmail
+INFO: Email settings saved
+Jul 25, 2020 2:59:12 PM app.Controller saveTimes
+INFO: Scheduler time settings saved
+Jul 25, 2020 3:04:43 PM app.Controller addAttachmentLink
+INFO: Attachment link added
+Jul 25, 2020 3:04:50 PM app.EmailTask lambda$run$0
+INFO: Test Mail sending...
+Jul 25, 2020 3:04:54 PM app.EmailTask lambda$run$1
+WARNING: File missing: E:\Batch_Data\text_3.txt
+Jul 25, 2020 3:04:56 PM app.EmailTask lambda$run$4
+INFO: Mail sent successfully

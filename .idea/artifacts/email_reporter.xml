@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="email-reporter">
+    <output-path>$PROJECT_DIR$/out/artifacts/email_reporter</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="app.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/main/resources/img/emailreporterlogo_32.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="image" />
+        <option name="title" value="Email-Reporter" />
+        <option name="vendor" value="Sincos" />
+        <option name="version" value="1.0.0.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="email_reporter.jar">
+        <element id="module-output" name="email-reporter" />
+      </element>
+      <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.0" />
+      <element id="library" level="project" name="Maven: de.jensd:fontawesomefx:8.9" />
+      <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+      <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+      <element id="library" level="project" name="Spring Web Services-2.0.2" />
+    </root>
+  </artifact>
+</component>
