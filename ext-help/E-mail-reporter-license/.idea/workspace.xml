@@ -2,146 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40475d9e-286d-4b77-bae1-62f4339902ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-mail-reporter-license.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sincos/Encryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sincos/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/E-mail-reporter-license.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sincos/Encryptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sincos/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_10_31.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_10_31.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_10_38.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_10_38.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_10_40.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_10_40.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_13_03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_13_03.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_13_04.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_13_04.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_13_05.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_13_05.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_13_06.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_13_06.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_37.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_37.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_38.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_38.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_39.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_39.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_40.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_40.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_51.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_51.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_52.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_52.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_58.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_15_58.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_00.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_00.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_02.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_03.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_25.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_25.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_34.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_34.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_35.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_35.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_37.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_37.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_38.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_38.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_39.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_16_39.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_39.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_39.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_41.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_41.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_42.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_42.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_43.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_43.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_44.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_44.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_46.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_17_46.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_06.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_06.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_08.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_08.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_09.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_09.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_11.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_14.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_18_20.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_09.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_09.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_12.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_12.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_14.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_16.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_16.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_17.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_23.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_28.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_31.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_31.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_32.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_32.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_34.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_34.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_38.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_38.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_39.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_39.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_40.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_40.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_42.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_42.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_44.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_44.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_48.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_48.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_53.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_53.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_54.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_20_54.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../src/main/java/app/WindwosCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../src/main/java/app/WmicCsproduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_21_08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_21_08.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_21_40.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_21_40.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_21_41.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_26_21_41.log.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/app/EmailTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/EmailTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/app/Encryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/Encryptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/app/Misc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/Misc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/app/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/resources/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/resources/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Controller$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Controller$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Encryptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Encryptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Misc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Misc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/main.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

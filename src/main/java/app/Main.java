@@ -33,7 +33,11 @@ public class Main extends Application {
         Toast.setOwnerStage(primaryStage);
         LogKeeper.init("logfiles/logfile");
 
-        primaryStage.show();
+        if (!Boolean.parseBoolean(new Settings("settings.xml").get("startSystemTray"))) {
+            primaryStage.show();
+        }
+
+
         primaryStage.setOnCloseRequest(event -> {
             //Platform.exit();
             ///System.exit(0);
