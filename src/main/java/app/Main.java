@@ -15,11 +15,12 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        primaryStage.setTitle("E-Mail Reporter ");
+
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/main.fxml"));
         final Controller controller = new Controller(primaryStage);
         fxmlLoader.setController(controller);
         Parent root = fxmlLoader.load();
-        primaryStage.setTitle("E-Mail Reporter");
 
         Scene scene = new Scene(root);
         scene.getStylesheets().add("/style.css");

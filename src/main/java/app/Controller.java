@@ -6,14 +6,18 @@ import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-import java.io.IOException;
+import java.awt.*;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
 import java.text.SimpleDateFormat;
 import java.util.*;
-import java.util.logging.FileHandler;
 import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
 
 public class Controller {
     Stage primaryStage;
@@ -24,11 +28,11 @@ public class Controller {
     @FXML
     Button removeAttachmentLinkBtn;
     @FXML
-    TextField timeToBack, timeToMatch, smtpHost, smtpPort, smtpFrom, smtpUsername, smtpPassword, attachmentLink, emailSubject;
+    TextField timeToBack, timeToMatch, smtpHost, smtpPort, smtpFrom, smtpUsername, smtpPassword, attachmentLink, emailSubject, deviceId;
     @FXML
-    TextArea emailTo, emailBody, logView;
+    TextArea emailTo, emailBody, logView, license;
     @FXML
-    CheckBox smtpEnableAuth, smtpEnableSsl, smtpEnableStartTls;
+    CheckBox smtpEnableAuth, smtpEnableSsl, smtpEnableStartTls, startSystemTray;
     @FXML
     Label currentTimeiView;
 
@@ -48,6 +52,8 @@ public class Controller {
 
         // No Text Selection Allowed in Log view
         logView.setEditable(false);
+        deviceId.setEditable(false);
+        license.setWrapText(true);
 
         // time fields initialization
         timeToBack.setText(settings.get("timeToBack", "0"));
@@ -67,6 +73,14 @@ public class Controller {
         emailTo.setText(settings.get("emailTo"));
         emailSubject.setText(settings.get("emailSubject"));
         emailBody.setText(settings.get("emailBody"));
+
+        // Settings fields initialization
+        Encryptor encryptor = new Encryptor("");
+        deviceId.setText(encryptor.md5(WmicCsproduct.getUuid()).toUpperCase());
+        license.setText(settings.get("license"));
+        startSystemTray.setSelected(Boolean.parseBoolean(settings.get("startSystemTray")));
+
+        setLicense();
 
         // file links listView initializations
         Map<String, String> fileLinkList = attachmentSettings.getAll();
@@ -100,6 +114,32 @@ public class Controller {
         new Thread(task).start();
 
     }
+
+    private void setLicense() {
+        Encryptor encryptor = new Encryptor("FR38_SH1PP2NG_N8W");
+        // licensing work
+        String licenseCode = encryptor.decrypt(settings.get("license"));
+        if (licenseCode == null) {
+            Misc.isValidLicense = false;
+            primaryStage.setTitle("E-mail reporter " + "[Bad license]");
+        } else {
+            String[] licenseCodes = licenseCode.split("<>");
+            if (licenseCodes.length == 3) {
+                if (licenseCodes[1].equals(deviceId.getText())) {
+                    Misc.isValidLicense = true;
+                    primaryStage.setTitle("E-mail reporter " + licenseCodes[0]);
+                } else {
+                    Misc.isValidLicense = false;
+                    primaryStage.setTitle("E-mail reporter " + "[Invalid License]");
+                }
+            } else {
+                Misc.isValidLicense = false;
+                primaryStage.setTitle("E-mail reporter " + "[Demo]");
+            }
+        }
+    }
+
+
 
     public void saveSmtpSettings() {
         System.out.println("SMTP settings save button pressed.");
@@ -232,8 +272,38 @@ public class Controller {
     }
 
     @FXML
+    public void saveSettings() {
+        System.out.println("save settings pressed");
+        settings.set("license", license.getText());
+        settings.set("startSystemTray", Boolean.toString(startSystemTray.isSelected()));
+        settings.store();
+
+        setLicense();
+
+        Toast.makeToastInfo("Settings saved");
+        logger.info("Settings saved");
+    }
+
+    @FXML void copyDeviceId() {
+        String stringToSelect = deviceId.getText();
+        StringSelection stringSelection = new StringSelection(stringToSelect);
+        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+        clipboard.setContents(stringSelection, null);
+        Toast.makeToastInfo("Device id copied to clipboard");
+    }
+
+    @FXML
     public void logReload() {
         Toast.makeToastInfo("Logfile reloaded");
         logView.setText(LogKeeper.getLog());
+    }
+
+    @FXML
+    public void logCopy() {
+        String stringToSelect = LogKeeper.getLog();
+        StringSelection stringSelection = new StringSelection(stringToSelect);
+        Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+        clipboard.setContents(stringSelection, null);
+        Toast.makeToastInfo("Log copied to clipboard");
     }
 }

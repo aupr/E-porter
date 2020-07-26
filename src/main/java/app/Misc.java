@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 
 public class Misc {
     public static boolean sendTestMail = false;
+    public static boolean isValidLicense = false;
 
     public static String patternsToDateTime(String stringWithDateFormatPatterns , long unixTimestampMills) {
 
@@ -20,5 +21,4 @@ public class Misc {
         }
         return stringWithDateFormatPatterns;
     }
-
 }

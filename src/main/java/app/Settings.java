@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class Settings {
-    Encryptor encryptor = new Encryptor("String to initialize - xylowuejikel45s_");
+    protected Encryptor encryptor = new Encryptor("String to initialize - xylowuejikel45s_");
     private String filename;
     private Properties properties;
 

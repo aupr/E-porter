@@ -1,0 +1,4 @@
+Jul 26, 2020 6:11:37 PM app.LogKeeper init
+INFO: Applicaiton started...
+Jul 26, 2020 6:13:47 PM app.Controller saveSmtpSettings
+INFO: SMTP settings saved

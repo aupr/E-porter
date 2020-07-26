@@ -24,7 +24,7 @@ public class EmailTask extends TimerTask {
     public void run() {
         // Loading the settings parameters
         this.settings = new Settings("settings.xml");
-        this.attachmentSettings= new Settings("attach.xml");
+        this.attachmentSettings = new Settings("attach.xml");
 
         // Loading the time to compare
         long compareToTimeMills = System.currentTimeMillis() - (Long.parseLong(settings.get("timeToBack")) * 60000);
@@ -112,49 +112,56 @@ public class EmailTask extends TimerTask {
                 }
 
              } else {
-                // mail sending by schedule with retry capability
-                // it will try for 7 times to send mail with 30 minutes interval
-                // approximate maximum execution time 3 hours
-                // variable to control retry flow
-                boolean retryToSendMail = true;
-                int attemptCount = 0;
+                if (Misc.isValidLicense) {
+                    // mail sending by schedule with retry capability
+                    // it will try for 7 times to send mail with 30 minutes interval
+                    // approximate maximum execution time 3 hours
+                    // variable to control retry flow
+                    boolean retryToSendMail = true;
+                    int attemptCount = 0;
 
-                while (retryToSendMail) {
-                    try {
-                        int finalAttemptCount = ++attemptCount;
-                        if (finalAttemptCount >= 7)
+                    while (retryToSendMail) {
+                        try {
+                            int finalAttemptCount = ++attemptCount;
+                            if (finalAttemptCount >= 7)
+                                retryToSendMail = false;
+                            Platform.runLater(() -> {
+                                Toast.makeToastInfo("Attempt "+ finalAttemptCount +" to send mail");
+                                logger.info("Attempt "+ finalAttemptCount +" to send mail");
+                            });
+                            emailResolver.sendMail(addresses);
                             retryToSendMail = false;
-                        Platform.runLater(() -> {
-                            Toast.makeToastInfo("Attempt "+ finalAttemptCount +" to send mail");
-                            logger.info("Attempt "+ finalAttemptCount +" to send mail");
-                        });
-                        emailResolver.sendMail(addresses);
-                        retryToSendMail = false;
-                        Platform.runLater(() -> {
-                            Toast.makeToastInfo("Mail sent successfully");
-                            logger.info("Mail sent successfully");
-                        });
-                    } catch (MessagingException e) {
-                        Platform.runLater(() -> {
-                            Toast.makeToastError("Failed to send mail");
-                            logger.log(Level.SEVERE, "Failed to send mail", e);
-                        });
-                    }
+                            Platform.runLater(() -> {
+                                Toast.makeToastInfo("Mail sent successfully");
+                                logger.info("Mail sent successfully");
+                            });
+                        } catch (MessagingException e) {
+                            Platform.runLater(() -> {
+                                Toast.makeToastError("Failed to send mail");
+                                logger.log(Level.SEVERE, "Failed to send mail", e);
+                            });
+                        }
 
-                    // Wait to next try if failed
-                    if (retryToSendMail) {
-                        for (int i = 0; i<30; i++) {
-                            System.out.println("counting time in minute: " + i);
-                            try {
-                                // One minute delay
-                                Thread.sleep(60000);
-                            } catch (InterruptedException e) {
-                                Platform.runLater(() -> {
-                                    logger.log(Level.WARNING, "Thread sleep exception", e);
-                                });
+                        // Wait to next try if failed
+                        if (retryToSendMail) {
+                            for (int i = 0; i<30; i++) {
+                                System.out.println("counting time in minute: " + i);
+                                try {
+                                    // One minute delay
+                                    Thread.sleep(60000);
+                                } catch (InterruptedException e) {
+                                    Platform.runLater(() -> {
+                                        logger.log(Level.WARNING, "Thread sleep exception", e);
+                                    });
+                                }
                             }
                         }
                     }
+                } else {
+                    Platform.runLater(() -> {
+                        Toast.makeToastError("Failed to send mail due to license failure");
+                        logger.log(Level.WARNING, "Failed to send mail due to license failure");
+                    });
                 }
             }
         }
