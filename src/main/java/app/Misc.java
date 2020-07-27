@@ -1,5 +1,6 @@
 package app;
 
+import java.net.ServerSocket;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.regex.Matcher;
@@ -8,6 +9,7 @@ import java.util.regex.Pattern;
 public class Misc {
     public static boolean sendTestMail = false;
     public static boolean isValidLicense = false;
+    public static ServerSocket serverSocket;
 
     public static String patternsToDateTime(String stringWithDateFormatPatterns , long unixTimestampMills) {
 

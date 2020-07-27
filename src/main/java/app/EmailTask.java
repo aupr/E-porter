@@ -123,7 +123,7 @@ public class EmailTask extends TimerTask {
                     while (retryToSendMail) {
                         try {
                             int finalAttemptCount = ++attemptCount;
-                            if (finalAttemptCount >= 7)
+                            if (finalAttemptCount >= Integer.parseInt(settings.get("retryLimit","7")))
                                 retryToSendMail = false;
                             Platform.runLater(() -> {
                                 Toast.makeToastInfo("Attempt "+ finalAttemptCount +" to send mail");
@@ -144,7 +144,7 @@ public class EmailTask extends TimerTask {
 
                         // Wait to next try if failed
                         if (retryToSendMail) {
-                            for (int i = 0; i<30; i++) {
+                            for (int i = 0; i<Integer.parseInt(settings.get("retryInterval", "30")); i++) {
                                 System.out.println("counting time in minute: " + i);
                                 try {
                                     // One minute delay

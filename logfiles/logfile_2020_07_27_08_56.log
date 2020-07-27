@@ -1,0 +1,8 @@
+Jul 27, 2020 8:56:45 AM app.LogKeeper init
+INFO: Applicaiton started...
+Jul 27, 2020 8:56:58 AM app.Controller saveSettings
+INFO: Settings saved
+Jul 27, 2020 8:57:40 AM app.Controller saveSettings
+INFO: Settings saved
+Jul 27, 2020 8:57:45 AM app.Controller saveSettings
+INFO: Settings saved

@@ -11,6 +11,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import javafx.util.converter.FloatStringConverter;
+import javafx.util.converter.IntegerStringConverter;
+import javafx.util.converter.NumberStringConverter;
 
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
@@ -28,7 +31,7 @@ public class Controller {
     @FXML
     Button removeAttachmentLinkBtn;
     @FXML
-    TextField timeToBack, timeToMatch, smtpHost, smtpPort, smtpFrom, smtpUsername, smtpPassword, attachmentLink, emailSubject, deviceId;
+    TextField timeToBack, timeToMatch, smtpHost, smtpPort, smtpFrom, smtpUsername, smtpPassword, attachmentLink, emailSubject, deviceId, retryLimit, retryInterval;
     @FXML
     TextArea emailTo, emailBody, logView, license;
     @FXML
@@ -49,11 +52,13 @@ public class Controller {
     @FXML
     private void initialize() {
 
-
         // No Text Selection Allowed in Log view
         logView.setEditable(false);
         deviceId.setEditable(false);
         license.setWrapText(true);
+        retryInterval.setTextFormatter(new TextFormatter<>(new IntegerStringConverter()));
+        retryLimit.setTextFormatter(new TextFormatter<>(new IntegerStringConverter()));
+        smtpPort.setTextFormatter(new TextFormatter<>(new IntegerStringConverter()));
 
         // time fields initialization
         timeToBack.setText(settings.get("timeToBack", "0"));
@@ -79,6 +84,8 @@ public class Controller {
         deviceId.setText(encryptor.md5(WmicCsproduct.getUuid()).toUpperCase());
         license.setText(settings.get("license"));
         startSystemTray.setSelected(Boolean.parseBoolean(settings.get("startSystemTray")));
+        retryLimit.setText(settings.get("retryLimit"));
+        retryInterval.setText(settings.get("retryInterval"));
 
         setLicense();
 
@@ -276,6 +283,9 @@ public class Controller {
         System.out.println("save settings pressed");
         settings.set("license", license.getText());
         settings.set("startSystemTray", Boolean.toString(startSystemTray.isSelected()));
+        settings.set("retryLimit", retryLimit.getText());
+        settings.set("retryInterval", retryInterval.getText());
+
         settings.store();
 
         setLicense();

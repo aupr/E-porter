@@ -2,6 +2,7 @@ package app;
 
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.concurrent.Task;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -9,6 +10,12 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
 import java.awt.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.InetAddress;
+import java.net.ServerSocket;
+import java.net.Socket;
 import java.net.URL;
 
 public class Main extends Application {
@@ -99,10 +106,41 @@ public class Main extends Application {
         }
         //System tray end///////////////////////////////////////////////////////////////////////////////
 
+        // listener for duplication try and show the window
+
+        Task task = new Task() {
+            @Override
+            protected Object call() throws Exception {
+                while (true) {
+                    Socket socket = Misc.serverSocket.accept();
+                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                    if (bufferedReader.readLine().equals("email-reporter")) Platform.runLater(() -> primaryStage.show());
+                }
+            }
+        };
+        new Thread(task).start();
     }
 
 
     public static void main(String[] args) {
+        // Startup preventing the multiple instance opening
+        boolean isGotException = false;
+        try {
+            Misc.serverSocket = new ServerSocket(64567, 1, InetAddress.getLocalHost());
+        } catch (IOException e) {
+            isGotException = true;
+        }
+        if (isGotException){
+            try {
+                Socket socket = new Socket(InetAddress.getLocalHost(),64567);
+                socket.getOutputStream().write("email-reporter\n".getBytes());
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+            Platform.exit();
+            System.exit(0);
+        }
+
         launch(args);
     }
 }
