@@ -2,70 +2,314 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Duplicate application startup prevented">
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_14_17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_14_17.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_01.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_01.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_44.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_44.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_47.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_47.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_49.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_49.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_57.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_57.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_58.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_58.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_14.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_15.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_15.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_58.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_58.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_59.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_59.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_02.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_05.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_05.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_06.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_06.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_07.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_07.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_09.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_09.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_11.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_15.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_15.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_17.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_24.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_24.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_26.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_26.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_27.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_28.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_30.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_30.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_36.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_36.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_40.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_40.log.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext-help/E-mail-reporter-license/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-help/E-mail-reporter-license/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/EmailTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/EmailTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Misc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Misc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/email-reporter.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/EmailTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/EmailTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Misc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Misc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/email-reporter.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/email_reporter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/fontawesomefx-8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/javax.mail-1.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-aop-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-aspects-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-beans-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-context-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-context-support-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-core-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-expression-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-instrument-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-jdbc-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-jms-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-messaging-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-orm-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-oxm-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-test-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-tx-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/app/spring-ws.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/email-reporter.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/email-reporter.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/packager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/THIRDPARTYLICENSEREADME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/Welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/JAWTAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/JavaAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/WindowsAccessBridge-64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/attach.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/awt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/bci.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/concrt140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/dcpr.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/decora_sse.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/deploy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/dt_shmem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/dt_socket.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/fontmanager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/fxplugins.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/glass.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/glib-lite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/gstreamer-lite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/hprof.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/instrument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/j2pcsc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/j2pkcs11.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jaas_nt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/java.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/java_crw_demo.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/javafx_font.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/javafx_iio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jawt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jdwp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jfr.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jfxmedia.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jfxwebkit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jli.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jsdt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jsound.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/jsoundds.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/lcms.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/management.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/mlib_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/msvcp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/nio.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/npt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/plugin2/msvcr100.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/plugin2/npjp2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/prism_common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/prism_d3d.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/prism_sw.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/resource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/sawindbg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/server/Xusage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/server/classes.jsa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/server/jvm.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/splashscreen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/sunec.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/sunmscapi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/t2k.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/unpack.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/verify.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/w2k_lsa_auth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/bin/zip.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/accessibility.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/amd64/jvm.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/calendars.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/charsets.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/classlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/cmm/CIEXYZ.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/cmm/GRAY.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/cmm/LINEAR_RGB.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/cmm/PYCC.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/cmm/sRGB.pf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/content-types.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/currency.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/access-bridge-64.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/cldrdata.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/dnsns.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/jaccess.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/jfxrt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/localedata.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/meta-index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/nashorn.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/sunec.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/sunjce_provider.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/sunmscapi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/sunpkcs11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/ext/zipfs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/flavormap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fontconfig.bfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fontconfig.properties.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fonts/LucidaBrightDemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fonts/LucidaBrightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fonts/LucidaBrightRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fonts/LucidaSansDemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fonts/LucidaSansRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fonts/LucidaTypewriterBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/fonts/LucidaTypewriterRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/hijrah-config-umalqura.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/images/cursors/cursors.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/images/cursors/invalid32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/images/cursors/win32_CopyDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/images/cursors/win32_CopyNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/images/cursors/win32_LinkDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/images/cursors/win32_LinkNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/images/cursors/win32_MoveDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/images/cursors/win32_MoveNoDrop32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/javafx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/javaws.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/jce.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/jfr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/jfr/default.jfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/jfr/profile.jfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/jfxswt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/jsse.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/jvm.hprof.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/management-agent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/management/jmxremote.access" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/management/jmxremote.password.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/management/management.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/management/snmp.acl.template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/meta-index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/net.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/plugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/psfont.properties.ja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/psfontj2d.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/resources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/rt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/blacklist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/blacklisted.certs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/cacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/java.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/java.security" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/javaws.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/policy/limited/US_export_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/policy/limited/local_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/policy/unlimited/US_export_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/policy/unlimited/local_policy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/security/trusted.libraries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/sound.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/tzdb.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/runtime/lib/tzmappings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/bundles/email-reporter/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/email_reporter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/email_reporter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/email_reporter.jnlp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/fontawesomefx-8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/javax.mail-1.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-aop-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-aspects-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-beans-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-context-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-context-support-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-core-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-expression-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-instrument-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-jdbc-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-jms-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-messaging-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-orm-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-oxm-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-test-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-tx-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/email_reporter/spring-ws.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Controller$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/EmailResolver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/EmailResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/EmailTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Encryptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/LogKeeper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Misc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Toast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/WindwosCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/WmicCsproduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/EmailReporterLogo_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/EmailReporterLogo_32.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/emailreporterlogo_32.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/sincos-logo-full.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img/unilever-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +556,7 @@
       <workItem from="1595665227870" duration="15395000" />
       <workItem from="1595737815655" duration="25307000" />
       <workItem from="1595817024497" duration="10680000" />
-      <workItem from="1608365400000" duration="14026000" />
+      <workItem from="1608365400000" duration="15618000" />
     </task>
     <task id="LOCAL-00001" summary="File missing handler and send mail without the missing file...">
       <created>1595668015050</created>
@@ -367,22 +611,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Duplicate application startup prevented" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom" timestamp="1608382787808">
+    <state width="1877" height="201" key="GridCell.Tab.0.bottom" timestamp="1608383498537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608382787808" />
-    <state width="1877" height="201" key="GridCell.Tab.0.center" timestamp="1608382787808">
+    <state width="1877" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608383498537" />
+    <state width="1877" height="201" key="GridCell.Tab.0.center" timestamp="1608383498536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608382787808" />
-    <state width="1877" height="201" key="GridCell.Tab.0.left" timestamp="1608382787808">
+    <state width="1877" height="201" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608383498536" />
+    <state width="1877" height="201" key="GridCell.Tab.0.left" timestamp="1608383498536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608382787808" />
-    <state width="1877" height="201" key="GridCell.Tab.0.right" timestamp="1608382787808">
+    <state width="1877" height="201" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608383498536" />
+    <state width="1877" height="201" key="GridCell.Tab.0.right" timestamp="1608383498536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608382787808" />
+    <state width="1877" height="201" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608383498536" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/email_reporter$Main.ic" NAME="Main Coverage Results" MODIFIED="1595669012197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
