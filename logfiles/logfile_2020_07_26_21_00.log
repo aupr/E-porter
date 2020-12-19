@@ -1,0 +1,53 @@
+Jul 26, 2020 9:00:48 PM app.LogKeeper init
+INFO: Applicaiton started...
+Jul 26, 2020 9:01:02 PM app.Controller saveSettings
+INFO: Settings saved
+Jul 26, 2020 9:01:20 PM app.Controller saveTimes
+INFO: Scheduler time settings saved
+Jul 26, 2020 9:02:53 PM app.EmailTask lambda$run$0
+INFO: Getting ready to send mail...
+Jul 26, 2020 9:02:53 PM app.EmailTask lambda$run$1
+WARNING: File missing: E:\Batch_Data\text_3.txt
+Jul 26, 2020 9:02:53 PM app.EmailTask lambda$run$11
+WARNING: Failed to send mail due to license failure
+Jul 26, 2020 9:03:14 PM app.Controller saveSettings
+INFO: Settings saved
+Jul 26, 2020 9:03:20 PM app.Controller saveTimes
+INFO: Scheduler time settings saved
+Jul 26, 2020 9:03:53 PM app.EmailTask lambda$run$0
+INFO: Getting ready to send mail...
+Jul 26, 2020 9:03:53 PM app.EmailTask lambda$run$1
+WARNING: File missing: E:\Batch_Data\text_3.txt
+Jul 26, 2020 9:03:53 PM app.EmailTask lambda$run$7
+INFO: Attempt 1 to send mail
+Jul 26, 2020 9:04:14 PM app.EmailTask lambda$run$9
+SEVERE: Failed to send mail
+com.sun.mail.util.MailConnectException: Couldn't connect to host, port: sg2plcpnl0128.prod.sin2.secureserver.net, 4654; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2194)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:726)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at app.EmailResolver.sendMail(EmailResolver.java:109)
+	at app.EmailTask.run(EmailTask.java:132)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:352)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:238)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)
+	... 10 more
+

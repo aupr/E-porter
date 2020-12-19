@@ -1,65 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Software open only in system tray added">
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_32.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_32.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_54.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_54.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_56.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_56.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_57.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_57.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_58.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_08_58.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_23.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_25.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_25.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_26.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_26.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_27.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_38.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_38.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_57.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_09_57.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_10_03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_10_03.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_35.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_35.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_38.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_38.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_40.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_40.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_41.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_41.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_44.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_44.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_49.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_49.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_52.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_52.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_57.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_11_57.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_12_01.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_12_01.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_12_08.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_07_27_12_08.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app/Main$1.class" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Duplicate application startup prevented">
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_14_17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_14_17.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_01.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_44.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_44.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_47.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_47.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_49.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_57.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_57.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_58.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_16_58.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_14.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_15.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_58.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_58.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_59.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_17_59.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_02.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_05.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_05.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_06.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_06.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_07.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_07.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_09.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_11.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_15.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_17.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_24.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_26.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_27.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_28.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_30.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_36.log.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_40.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logfiles/logfile_2020_12_19_18_40.log.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ext-help/E-mail-reporter-license/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ext-help/E-mail-reporter-license/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/EmailTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/EmailTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Misc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Misc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Controller$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Controller$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/email-reporter.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/EmailTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/EmailTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/Misc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Misc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.fxml" afterDir="false" />
     </list>
@@ -184,7 +188,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="D:/keycloak-10.0.2/themes/wiexon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -307,7 +311,8 @@
       <workItem from="1595211436306" duration="3631000" />
       <workItem from="1595665227870" duration="15395000" />
       <workItem from="1595737815655" duration="25307000" />
-      <workItem from="1595817024497" duration="10514000" />
+      <workItem from="1595817024497" duration="10680000" />
+      <workItem from="1608365400000" duration="14026000" />
     </task>
     <task id="LOCAL-00001" summary="File missing handler and send mail without the missing file...">
       <created>1595668015050</created>
@@ -337,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595779486928</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Duplicate application startup prevented">
+      <created>1595834167759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595834167759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,105 +363,26 @@
     <MESSAGE value="Mail send retry if failed" />
     <MESSAGE value="Software licensing added" />
     <MESSAGE value="Software open only in system tray added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Software open only in system tray added" />
+    <MESSAGE value="Duplicate application startup prevented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Duplicate application startup prevented" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#Log_Highlighting_(ideolog)" timestamp="1594868438925">
+    <state width="1877" height="201" key="GridCell.Tab.0.bottom" timestamp="1608382787808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#Log_Highlighting_(ideolog)/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594868438925" />
-    <state x="552" y="179" key="#Project_Structure" timestamp="1595762431200">
+    <state width="1877" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608382787808" />
+    <state width="1877" height="201" key="GridCell.Tab.0.center" timestamp="1608382787808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595762431200" />
-    <state x="733" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594801612008">
+    <state width="1877" height="201" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608382787808" />
+    <state width="1877" height="201" key="GridCell.Tab.0.left" timestamp="1608382787808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="733" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594801612008" />
-    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1594706368714">
+    <state width="1877" height="201" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608382787808" />
+    <state width="1877" height="201" key="GridCell.Tab.0.right" timestamp="1608382787808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594706368714" />
-    <state x="710" y="372" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1595049515374">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="710" y="372" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595049515374" />
-    <state x="590" y="210" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593577111074">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="590" y="210" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1593577111074" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593920321092">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1593920321092" />
-    <state x="615" y="115" key="CommitChangelistDialog2" timestamp="1595779486183">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="615" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595779486183" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1595770916050">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595770916050" />
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom" timestamp="1595834110070">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595834110070" />
-    <state width="1877" height="201" key="GridCell.Tab.0.center" timestamp="1595834110069">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595834110069" />
-    <state width="1877" height="201" key="GridCell.Tab.0.left" timestamp="1595834110069">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595834110069" />
-    <state width="1877" height="201" key="GridCell.Tab.0.right" timestamp="1595834110069">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="201" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595834110069" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1595780088468">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595780088468" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1595780088468">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595780088468" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1595780088468">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595780088468" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1595780088468">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595780088468" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1595049971994">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595049971994" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1595817122199">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595817122199" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1595737845932">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595737845932" />
-    <state x="618" y="180" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593943665671">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="618" y="180" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1593943665670" />
-    <state x="690" y="287" key="extract.method.dialog" timestamp="1594042846423">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="287" key="extract.method.dialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1594042846423" />
-    <state x="342" y="141" key="new project wizard" timestamp="1595770956745">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="141" key="new project wizard/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595770956745" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595675771521">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1595675771521" />
+    <state width="1877" height="201" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1608382787808" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/email_reporter$Main.ic" NAME="Main Coverage Results" MODIFIED="1595669012197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

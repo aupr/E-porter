@@ -3,7 +3,7 @@
 <properties>
 <comment>E-mail reporter setting file | do not edit manually if you are not an expert</comment>
 <entry key="smtpPassword">zC+SpJsdkbsjgqtLo/VLog==</entry>
-<entry key="emailSubject">this is a test mail for {{dd}}-{{MM}}-{{yyyy}} {{HH:mm}}</entry>
+<entry key="emailSubject">this is a test mail for {{dd}}-{{MM}}-{{yyyy}} {{HH:mm}} {{HH:mm@180}}</entry>
 <entry key="smtpEnableStartTls">true</entry>
 <entry key="timeToBack">2</entry>
 <entry key="emailBody">Dear Concern,
@@ -15,12 +15,12 @@ Sincos ER</entry>
 <entry key="startSystemTray">false</entry>
 <entry key="smtpFrom">soud@stsvinc.com</entry>
 <entry key="license">FvZpTfjrUrQ+grCzeX8XmIH62jLDTY3mT0BoufPkbElsU6pDUBNklkilJV+dF/cJS0jZLJyuiYOz/Vt0WSHNSPqdbNar8MCDXIsI3vXAJuCLB4DzIZevdw5skmclWFSL2fUZeWMzBCHa0AiIYATsHQ==</entry>
-<entry key="smtpEnableSsl">true</entry>
 <entry key="smtpHost">sg2plcpnl0128.prod.sin2.secureserver.net</entry>
+<entry key="smtpEnableSsl">true</entry>
 <entry key="retryInterval">32</entry>
-<entry key="timeToMatch">21:03</entry>
 <entry key="smtpUsername">soud@stsvinc.com</entry>
-<entry key="smtpPort">4654</entry>
+<entry key="timeToMatch">18:46</entry>
+<entry key="smtpPort">465</entry>
 <entry key="retryLimit">7</entry>
 <entry key="emailTo">amanullah.snet@gmail.com;siemens.aman@gmail.com</entry>
 </properties>

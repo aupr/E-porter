@@ -1,0 +1,20 @@
+Dec 19, 2020 6:45:26 PM app.LogKeeper init
+INFO: Applicaiton started...
+Dec 19, 2020 6:45:31 PM app.Controller saveTimes
+INFO: Scheduler time settings saved
+Dec 19, 2020 6:46:31 PM app.EmailTask lambda$run$0
+INFO: Getting ready to send mail...
+Dec 19, 2020 6:46:31 PM app.EmailTask lambda$run$1
+WARNING: File missing: E:\Batch_Data\text_3.txt
+Dec 19, 2020 6:46:31 PM app.EmailTask lambda$run$7
+INFO: Attempt 1 to send mail
+Dec 19, 2020 6:46:33 PM app.EmailTask lambda$run$8
+INFO: Mail sent successfully
+Dec 19, 2020 6:51:19 PM app.EmailTask lambda$run$0
+INFO: Getting ready to send mail...
+Dec 19, 2020 6:51:19 PM app.EmailTask lambda$run$1
+WARNING: File missing: E:\Batch_Data\text_3.txt
+Dec 19, 2020 6:51:20 PM app.EmailTask lambda$run$4
+INFO: Attempt to send test mail
+Dec 19, 2020 6:51:22 PM app.EmailTask lambda$run$5
+INFO: Mail sent successfully

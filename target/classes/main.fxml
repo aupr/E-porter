@@ -30,7 +30,7 @@
                                         <FontAwesomeIconView fill="WHITE" glyphName="SAVE" size="20" wrappingWidth="21.571430206298828" />
                                     </graphic>
                                 </Button>
-                                <Label fx:id="currentTimeiView" layoutX="34.0" layoutY="26.0" text="09:43" textFill="#393939">
+                                <Label fx:id="currentTimeiView" layoutX="34.0" layoutY="45.0" text="09:43" textFill="#393939">
                                     <font>
                                         <Font size="48.0" />
                                     </font>
@@ -41,13 +41,7 @@
                                         <Font name="System Bold" size="36.0" />
                                     </font>
                                 </Text>
-                                <Text layoutX="494.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version 1.0.0.0" />
-                                <TextField fx:id="timeToBack" layoutX="34.0" layoutY="121.0" prefHeight="33.0" prefWidth="199.0" />
-                                <Text layoutX="35.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time back in Minutes">
-                                    <font>
-                                        <Font size="18.0" />
-                                    </font>
-                                </Text>
+                                <Text layoutX="494.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version 2.1.0.0" />
                                 <Text layoutX="36.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time to match">
                                     <font>
                                         <Font size="18.0" />

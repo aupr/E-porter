@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40475d9e-286d-4b77-bae1-62f4339902ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_32.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_32.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_54.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_54.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_56.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_56.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_57.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_57.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_58.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_08_58.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_23.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_25.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_25.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_26.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_26.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_27.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_38.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_38.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_57.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_09_57.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_10_03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_10_03.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_35.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_35.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_38.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_38.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_40.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_40.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_41.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_41.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_44.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_44.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_49.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_49.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_52.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_52.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_57.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_11_57.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_12_01.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_12_01.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_12_08.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../logfiles/logfile_2020_07_27_12_08.log.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../target/classes/app/Main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/app/EmailTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/EmailTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/app/Misc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/java/app/Misc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/resources/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main/resources/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Controller$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Controller$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/EmailTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/EmailTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/app/Misc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/app/Misc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/classes/main.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../keycloak-avatar-minio-extension" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -135,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595770957076</updated>
-      <workItem from="1595770960651" duration="5823000" />
+      <workItem from="1595770960651" duration="5980000" />
+      <workItem from="1596686814039" duration="41000" />
     </task>
     <servers />
   </component>
@@ -154,21 +98,29 @@
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
     <state x="2290" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1595771588775" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1595833856466">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1596686849372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596686849372" />
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom" timestamp="1595834270191">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1595833856466" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1595833856466">
+    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1595834270191" />
+    <state width="1237" height="263" key="GridCell.Tab.0.center" timestamp="1595834270191">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1595833856466" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1595833856466">
+    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1595834270191" />
+    <state width="1237" height="263" key="GridCell.Tab.0.left" timestamp="1595834270191">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1595833856466" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1595833856466">
+    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1595834270191" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right" timestamp="1595834270191">
       <screen x="1920" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1595833856466" />
+    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@1920.0.1280.984" timestamp="1595834270191" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1596686817527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596686817527" />
   </component>
 </project>

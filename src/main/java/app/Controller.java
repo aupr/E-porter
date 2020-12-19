@@ -20,6 +20,7 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.List;
 import java.util.logging.Logger;
 
 public class Controller {
@@ -31,7 +32,7 @@ public class Controller {
     @FXML
     Button removeAttachmentLinkBtn;
     @FXML
-    TextField timeToBack, timeToMatch, smtpHost, smtpPort, smtpFrom, smtpUsername, smtpPassword, attachmentLink, emailSubject, deviceId, retryLimit, retryInterval;
+    TextField timeToMatch, smtpHost, smtpPort, smtpFrom, smtpUsername, smtpPassword, attachmentLink, emailSubject, deviceId, retryLimit, retryInterval;
     @FXML
     TextArea emailTo, emailBody, logView, license;
     @FXML
@@ -61,7 +62,6 @@ public class Controller {
         smtpPort.setTextFormatter(new TextFormatter<>(new IntegerStringConverter()));
 
         // time fields initialization
-        timeToBack.setText(settings.get("timeToBack", "0"));
         timeToMatch.setText(settings.get("timeToMatch"));
 
         // smtp settings fields initialization
@@ -259,7 +259,6 @@ public class Controller {
     @FXML
     public void saveTimes() {
         System.out.println("Time settings save button pressed.");
-        settings.set("timeToBack", timeToBack.getText());
         settings.set("timeToMatch", timeToMatch.getText());
         settings.store();
         Toast.makeToastInfo("Scheduler time settings saved");

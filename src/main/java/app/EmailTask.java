@@ -27,7 +27,8 @@ public class EmailTask extends TimerTask {
         this.attachmentSettings = new Settings("attach.xml");
 
         // Loading the time to compare
-        long compareToTimeMills = System.currentTimeMillis() - (Long.parseLong(settings.get("timeToBack")) * 60000);
+        // long compareToTimeMills = System.currentTimeMillis() - (Long.parseLong(settings.get("timeToBack")) * 60000);
+        long compareToTimeMills = System.currentTimeMillis();
         String compareToTimeString = new SimpleDateFormat("HH:mm").format(new Date());
 
         System.out.println(new Date());
